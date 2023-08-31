@@ -1,8 +1,8 @@
-
+/* 
 @font-face {
     font-family: gg;
     src: url(gg.ttf);
-  }
+  } */
 *{
     padding: 0;
     margin: 0;
@@ -21,14 +21,14 @@ body{
     gap: 10px;
     color: white;
     justify-content: center;
-    font-family: 'gg', sans-serif;
+    /* font-family: 'gg', sans-serif; */
     font-size: 18px;
     margin-top: 20px;
 }
 
 .brb{
     color: white;
-    font-family: 'gg', sans-serif;
+    /* font-family: 'gg', sans-serif; */
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -45,7 +45,7 @@ body{
     justify-content: center;
 }
 
-.main .form{
+.main .form-contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +55,7 @@ body{
     width: 100%;
 }
 
-.main .form input[type="text"]{
+.main .form-contact input[type="text"], input[type="password"]{
     background-color: #1E1F22;
     border: none;
     border-radius: 5px;
@@ -64,7 +64,7 @@ body{
     color: white;
 }
 
-.main .form a{
+.main .form-contact input[type="submit"]{
     display: flex;
     text-decoration: none;
     color: white;
@@ -75,6 +75,8 @@ body{
     margin-top: 3vh;
     margin-bottom: 1vh;
     border-radius: 5px;
+    border: 0;
+    font-size: 15px;
 }
 .welcome img{
     width: 7%;
@@ -91,6 +93,7 @@ body{
 
 .blue{
     color: #0EA5FC;
+    cursor: pointer;
 }
 
 .grey{
