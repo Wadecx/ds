@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: gg;
+    src: url(gg.ttf);
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #313338;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+    font-family: 'gg', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.brb{
+    color: white;
+    font-family: 'gg', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.main {
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+    margin-top: 10vh;
+    padding: 20px;
+    justify-content: center;
+}
+
+.main .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'gg', sans-serif;
+    color: #afafaf;
+    gap: 7px;
+    width: 100%;
+}
+
+.main .form input[type="text"]{
+    background-color: #1E1F22;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 50px 15px 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.main .form a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: #5865F2;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+}
+.welcome img{
+    width: 7%;
+}
+
+.red{
+    color: red;
+}
+
+.mel
+{
+    font-size: 13px;
+}
+
+.blue{
+    color: #0EA5FC;
+}
+
+.grey{
+    color: #858585;
+}
+
