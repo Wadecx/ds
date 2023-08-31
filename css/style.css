@@ -1,8 +1,8 @@
-/* 
+
 @font-face {
     font-family: gg;
     src: url(gg.ttf);
-  } */
+  }
 *{
     padding: 0;
     margin: 0;
@@ -21,14 +21,14 @@ body{
     gap: 10px;
     color: white;
     justify-content: center;
-    /* font-family: 'gg', sans-serif; */
+    font-family: 'gg', sans-serif;
     font-size: 18px;
     margin-top: 20px;
 }
 
 .brb{
     color: white;
-    /* font-family: 'gg', sans-serif; */
+    font-family: 'gg', sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -53,6 +53,7 @@ body{
     color: #afafaf;
     gap: 7px;
     width: 100%;
+    
 }
 
 .main .form-contact input[type="text"], input[type="password"]{
